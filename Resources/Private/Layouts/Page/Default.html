@@ -14,13 +14,11 @@
 		  </div>
 		</div>
 	</div>
-	<div class="container menu">  
-		<f:render partial="Navigation/Main" arguments="{_all}"/>
-	</div>
 	<div class="container bandeau">
 			<f:cObject typoscriptObjectPath="lib.bandeau"/>
 	</div> 
-</header> 
+</header>
+<f:render partial="Navigation/Main" arguments="{_all}"/>
 <section>
 	<div class="container principal">
 		<div class="content">
