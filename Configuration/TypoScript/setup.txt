@@ -191,3 +191,14 @@ page{
 	   show.LxALLtypes = 0
 	   show.resultNumber = 1
 	  }
+	  
+	##########################################
+	### BOOTSTRAP PACKAGE CONTENT ELEMENTS ###
+	##########################################
+	plugin.bootstrap_package_contentelements {
+		view{
+		   templateRootPath = EXT:serignac/Resources/Private/Templates/ContentElements/
+		   layoutRootPath = EXT:serignac/Resources/Private/Layouts/ContentElements/
+		   partialRootPath  = EXT:serignac/Resources/Private/Partials/ContentElements/
+		}
+	}
