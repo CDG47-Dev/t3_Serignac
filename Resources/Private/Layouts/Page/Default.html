@@ -3,38 +3,44 @@
     <f:link.page class="sr-only sr-only-focusable" section="content">
         {f:translate(key: 'skiptomaincontent', extensionName: 'bootstrap_package')}
     </f:link.page>
-<header>
-	 <div class="container">
-		<div class="row">
-		  <div class="col-md-3 bienvenue">
-			<f:cObject typoscriptObjectPath="lib.bienvenue"/> 
-		  </div>		
-		  <div class="col-md-9 localisation">
-			<f:cObject typoscriptObjectPath="lib.localisation"/>
-		  </div>
-		</div>
-	</div>
-	<div class="container bandeau">
-			<f:cObject typoscriptObjectPath="lib.bandeau"/>
-	</div> 
-</header>
-<f:render partial="Navigation/Main" arguments="{_all}"/>
-<div class="container">
-	<f:render partial="Navigation/Breadcrumb" arguments="{_all}"/>
-</div>
-<section>
-	<div class="container principal">
-		<div class="content">
-
-			<div id="content" class="main-section">
-				<!--TYPO3SEARCH_begin-->
-				<section id="p{data.uid}" class="{pageClass}">
-					<f:render section="Main"/>
-				</section>
-				<!--TYPO3SEARCH_end-->
+	<header class="wrapper">
+		 <div class="container">
+			<div class="row">
+			  <div class="col-md-3 bienvenue">
+				<f:cObject typoscriptObjectPath="lib.bienvenue"/> 
+			  </div>		
+			  <div class="col-md-9 localisation">
+				<f:cObject typoscriptObjectPath="lib.localisation"/>
+			  </div>
 			</div>
 		</div>
+		<div class="container bandeau">
+				<f:cObject typoscriptObjectPath="lib.bandeau"/>
+		</div> 
+	</header>
+	<div class="wrapper">
+	<f:render partial="Navigation/Main" arguments="{_all}"/>
 	</div>
-</section>
-<f:render partial="Structure/Footer" arguments="{_all}"/>
+	<div class="wrapper">
+		<div class="container">
+			<f:render partial="Navigation/Breadcrumb" arguments="{_all}"/>
+		</div>
+	</div>
+	<section class="wrapper">
+		<div class="container principal">
+			<div class="content">
+
+				<div id="content" class="main-section">
+					<!--TYPO3SEARCH_begin-->
+					<section id="p{data.uid}" class="{pageClass}">
+						<f:render section="Main"/>
+					</section>
+					<!--TYPO3SEARCH_end-->
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="wrapper">
+	<f:render partial="Structure/Footer" arguments="{_all}"/>
+	</div>
 </div>
