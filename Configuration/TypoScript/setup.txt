@@ -80,7 +80,6 @@ page{
 	lib.localisation.value(
 	    <li>
 	      <a target="_blank" title="vers le site de l'Union européenne" href="http://europa.eu/index_fr.htm">
-	        <i title="" class="glyphicon glyphicon-globe" data-original-title="Europe"></i>
 	        <span class="hidden-sm hidden-xs">
 	          Europe
 	        </span>
@@ -88,39 +87,38 @@ page{
 	    </li>
 	    <li>
 	      <a target="_blank" title="vers le site France.fr" href="http://www.france.fr">
-	        <i title="" class="glyphicon glyphicon-globe" data-original-title="France"></i>
 	        <span class="hidden-sm hidden-xs">
 	          France
 	        </span>
+		    <i title="" class="glyphicon glyphicon-menu-right" data-original-title="France"></i>
 	      </a>
 	    </li>
 	    <li>
-	      <a target="_blank" title="vers le site du Conseil Régional d'Aquitaine-Limousin-Poitou-Charentes" href="http://laregion-alpc.fr/">
-	        <i title="" class="glyphicon glyphicon-globe" data-original-title="Aquitaine-Limousin-Poitou-Charentes"></i>
+	      <a target="_blank" title="vers le site du Conseil Régional de Nouvelle Aquitaine" href="http://laregion-alpc.fr/">
 	        <span class="hidden-sm hidden-xs">
-	          ALPC
+	          Nouvelle Aquitaine
 	        </span>
+			<i title="" class="glyphicon glyphicon-menu-right" data-original-title="Nouvelle Aquitaine"></i>
 	      </a>
 	    </li>
 	    <li>
 	      <a target="_blank" title="vers le site du Conseil Départemental de Lot et Garonne" href="http://www.lotetgaronne.fr/">
-	        <i title="" class="glyphicon glyphicon-globe" data-original-title="Lot-et-Garonne"></i>
 	        <span class="hidden-sm hidden-xs">
 	          Lot et Garonne
 	        </span>
+			<i title="" class="glyphicon glyphicon-menu-right" data-original-title="Lot et Garonne"></i>
 	      </a>
 	    </li>
 	    <li>
 	      <a target="_blank" title="{$page.localisation.cc_title}" href="{$page.localisation.cc_url}">
-	        <i title="" class="glyphicon glyphicon-globe" data-original-title="{$page.localisation.cc_text}"></i>
 	        <span class="hidden-sm hidden-xs">
 	          {$page.localisation.cc_text}
 	        </span>
+			<i title="" class="glyphicon glyphicon-menu-right" data-original-title="{$page.localisation.cc_text}"></i>
 	      </a>
 	    </li>
 	    <li>
 	      <a title="{$page.localisation.commune_title}" href="{$page.localisation.commune_url}">
-	        <i title="" class="glyphicon glyphicon-globe" data-original-title="{$page.localisation.commune_text}"></i>
 	        <span class="hidden-sm hidden-xs">
 	          {$page.localisation.commune_text}
 	        </span>
