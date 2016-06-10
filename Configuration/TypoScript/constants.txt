@@ -9,17 +9,17 @@ page{
 
 	localisation {
              	cc_url = http://www.agglo-agen.net/
-				cc_title = vers le site de l'Agglomération d'Agen
-				cc_text = Agglomération d'Agen
-        commune_url = #
-        commune_title = vers l'accueil site de Serignac
-        commune_text =  Serignac sur Garonne
+		cc_title = vers le site de l'Agglomération d'Agen
+		cc_text = Agglomération d'Agen
+        	commune_url = #
+        	commune_title = vers l'accueil site de Serignac
+	        commune_text =  Serignac sur Garonne
 	}
 	
 		
 	bienvenue {
 		msg = Bienvenue sur le site officiel de la commune
-    }
+    	}
 	
 	search {
 		#Renseigner ici l'Id page de recherche site:
@@ -57,4 +57,15 @@ page{
 		# Page à exclure
 		excludelist = 33 
   	} 
+  	
+	logo {
+	    # Logo par défaut
+	    file = EXT:serignac/Resources/Public/Images/logo.png
+	    # Hauteur du logo
+	    height = 90
+	    # Largeur du logo
+	    width = 220
+	    # label=Alternative text: Text of the alt attribute of the logo image (default: "<website title> logo"
+	    alt = Sérignac
+	}  	
 }
