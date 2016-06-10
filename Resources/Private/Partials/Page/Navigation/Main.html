@@ -28,30 +28,39 @@
                 <ul class="nav navbar-nav navbar-main">
                     <f:for each="{mainnavigation}" as="mainnavigationItem">
                         <li class="{f:if(condition: mainnavigationItem.active, then:'active')} {f:if(condition: mainnavigationItem.children, then:'dropdown')}">
-                            <f:if condition="{mainnavigationItem.children}">
-                                <f:then>
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                        {mainnavigationItem.title}
-                                        <b class="caret"></b>
-                                        <span class="bar"></span>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <f:for each="{mainnavigationItem.children}" as="child">
-                                            <li class="{f:if(condition: child.active, then:'active')}">
-                                                <f:link.page pageUid="{child.data.uid}" title="{child.title}">
-                                                    {child.title}
-                                                </f:link.page>
-                                            </li>
-                                        </f:for>
-                                    </ul>
-                                </f:then>
-                                <f:else>
-                                    <f:link.page pageUid="{mainnavigationItem.data.uid}" title="{mainnavigationItem.title}">
-                                        {mainnavigationItem.title}
-                                        <span class="bar"></span>
-                                    </f:link.page>
-                                </f:else>
-                            </f:if>
+                           <f:if condition="{mainnavigationItem.isFirst}">
+								<f:then>
+										<f:link.page pageUid="{mainnavigationItem.data.uid}" title="{mainnavigationItem.title}">
+											{mainnavigationItem.title}
+											<span class="bar"></span>
+										</f:link.page>
+								</f:then>
+								<f:else>
+									<f:if condition="{mainnavigationItem.children}">
+										<f:then>
+											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+												{mainnavigationItem.title}
+												<b class="caret"></b>
+												<span class="bar"></span>
+											</a>
+											<ul class="dropdown-menu">
+												<f:for each="{mainnavigationItem.children}" as="child">
+													<li class="{f:if(condition: child.active, then:'active')}">
+														<f:link.page pageUid="{child.data.uid}" title="{child.title}">
+															{child.title}
+														</f:link.page>
+													</li>
+												</f:for>
+											</ul>
+										</f:then>
+										<f:else>
+											<f:link.page pageUid="{mainnavigationItem.data.uid}" title="{mainnavigationItem.title}">
+												{mainnavigationItem.title}
+												<span class="bar"></span>
+											</f:link.page>
+										</f:else>
+									</f:if>
+								<f:else>
                         </li>
                     </f:for>
                 </ul>
