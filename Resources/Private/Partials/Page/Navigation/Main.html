@@ -26,9 +26,9 @@
         <f:if condition="{mainnavigation}">
             <nav class="navbar-collapse collapse" role="navigation">
                 <ul class="nav navbar-nav navbar-main">
-                    <f:for each="{mainnavigation}" as="mainnavigationItem">
+                    <f:for each="{mainnavigation}" as="mainnavigationItem" iteration="iterator">
                         <li class="{f:if(condition: mainnavigationItem.active, then:'active')} {f:if(condition: mainnavigationItem.children, then:'dropdown')}">
-                           <f:if condition="{mainnavigationItem.isFirst}">
+                           <f:if condition="{iterator.isFirst}">
 								<f:then>
 										<f:link.page pageUid="{mainnavigationItem.data.uid}" title="{mainnavigationItem.title}">
 											{mainnavigationItem.title}
@@ -60,7 +60,8 @@
 											</f:link.page>
 										</f:else>
 									</f:if>
-								<f:else>
+								</f:else>
+							</f:if>
                         </li>
                     </f:for>
                 </ul>
