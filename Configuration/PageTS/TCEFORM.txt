@@ -3,22 +3,12 @@
 #################
 TCEFORM {
  tt_content {
-        # Déclaration gabarit additionnel pour plugin "Menus Spéciaux"
-        menu_type {
-            addItems {
-                minithumbnail_dir = MiniThumbnail Dir
-                minithumbnail_list = MiniThumbnail List
-                iconemenu_dir = Menu Icones 48px Dir
-                iconemenu_list = Menu Icones 48px List
-            }
-        }
-		
-		section_frame {
-			addItems{
-			31 = No Frame
-			22 = Well Blue
-			23 = Jumbotron Light
-			}
+	section_frame {
+		addItems{
+		31 = No Frame
+		22 = Well Blue
+		23 = Jumbotron Light
 		}
+	}
   }
 }
