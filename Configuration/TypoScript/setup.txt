@@ -83,6 +83,7 @@ page{
 	        <span class="hidden-sm hidden-xs">
 	          Europe
 	        </span>
+			 <i title="" class="glyphicon glyphicon-menu-right" data-original-title="Europe"></i>
 	      </a>
 	    </li>
 	    <li>
