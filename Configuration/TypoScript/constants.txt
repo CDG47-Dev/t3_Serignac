@@ -1,8 +1,8 @@
 page{
 	fluidtemplate{
-		templateRootPath = EXT:serignac/Resources/Private/Templates/Page/
-		layoutRootPath = EXT:serignac/Resources/Private/Layouts/Page/
-		partialRootPath = EXT:serignac/Resources/Private/Partials/Page/
+		templateRootPath = EXT:t3_serignac/Resources/Private/Templates/Page/
+		layoutRootPath = EXT:t3_serignac/Resources/Private/Layouts/Page/
+		partialRootPath = EXT:t3_serignac/Resources/Private/Partials/Page/
 	
 	}
 	bandeau = 1
@@ -60,7 +60,7 @@ page{
   	
 	logo {
 	    # Logo par défaut
-	    file = EXT:serignac/Resources/Public/Images/logo.png
+	    file = EXT:t3_serignac/Resources/Public/Images/logo.png
 	    # Hauteur du logo
 	    height = 90
 	    # Largeur du logo

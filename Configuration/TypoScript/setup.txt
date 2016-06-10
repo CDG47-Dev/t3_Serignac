@@ -52,17 +52,17 @@ page{
 		
 	templateRootPath{
 		0= EXT:bootstrap_package/Resources/Private/Templates/Page/
-		1= EXT:serignac/Resources/Private/Templates/Page/
+		1= EXT:t3_serignac/Resources/Private/Templates/Page/
 		2= {$page.fluidtemplate.templateRootPath}
 	}
 	layoutRootPath{
 		0= EXT:bootstrap_package/Resources/Private/Layouts/Page/
-		1= EXT:serignac/Resources/Private/Layouts/Page/
+		1= EXT:t3_serignac/Resources/Private/Layouts/Page/
 		2= {$page.fluidtemplate.layoutRootPath}
 	}
 	partialRootPath{
 		0= EXT:bootstrap_package/Resources/Private/Partials/Page/
-		1= EXT:serignac/Resources/Private/Partials/Page/
+		1= EXT:t3_serignac/Resources/Private/Partials/Page/
 		2= {$page.fluidtemplate.partialRootPath}
 	}
 	
@@ -182,7 +182,7 @@ page{
 	     # TSFE:id is always the current page
 	     targetPid.data = TSFE:id
 	    }
-	   templateFile = EXT:serignac/Resources/Private/Templates/Search/Search.html
+	   templateFile = EXT:t3_serignac/Resources/Private/Templates/Search/Search.html
 	   show.rules = 0
 	   show.advancedSearchLink = 0
 	   show.parsetimes = 0
@@ -197,8 +197,8 @@ page{
 	##########################################
 	plugin.bootstrap_package_contentelements {
 		view{
-		   templateRootPath = EXT:serignac/Resources/Private/Templates/ContentElements/
-		   layoutRootPath = EXT:serignac/Resources/Private/Layouts/ContentElements/
-		   partialRootPath  = EXT:serignac/Resources/Private/Partials/ContentElements/
+		   templateRootPath = EXT:t3_serignac/Resources/Private/Templates/ContentElements/
+		   layoutRootPath = EXT:t3_serignac/Resources/Private/Layouts/ContentElements/
+		   partialRootPath  = EXT:t3_serignac/Resources/Private/Partials/ContentElements/
 		}
 	}
