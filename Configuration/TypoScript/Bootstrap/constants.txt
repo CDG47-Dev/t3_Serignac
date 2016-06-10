@@ -1,14 +1,25 @@
 plugin.bootstrap_package {
     settings {
         less {
-              navbar-height = 20px
-              navbar-default-bg = #6b993a
-              navbar-default-color = #fff
-              navbar-default-link-active-color = white
+              navbar-gradient1 = rgb(30, 50, 230)
+              navbar-gradient2 = rgb(255, 255, 255)
               font-size-base = 14px
-              font-family-sans-serif = "Open Sans", Helvetica, Arial, sans-serif
-              footerColor = #FFF;
-              footerColorText = #000;
+              navbar-height = 30px
+              bandeauHeight = 300px
+              footer-gradient1 = rgb(30, 50, 230)
+              footer-gradient2 = rgb(90, 140, 250)
+              footer-bottom = rgb(90, 140, 250)
              }
+    }
+}
+
+plugin.bootstrap_package_contentelements {
+    menu_thumbnails {
+        media {
+            # cat=bootstrap package: advanced/143/102; type=string; label=Thumbnail Menu Media Height
+            height = 150
+            # cat=bootstrap package: advanced/143/103; type=string; label=Thumbnail Menu Media Width
+            width = 200
+        }
     }
 }

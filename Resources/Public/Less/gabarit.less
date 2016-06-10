@@ -1,0 +1,116 @@
+/*
+ * Add Frame Style
+ * --------------------------------------------------
+ */
+
+.frame {
+   &.well{
+     &.blue{
+       background: rgba(74, 124, 190, 0.4);
+     }
+   }
+   &.jumbotron{
+     padding:10px 10px;  
+     &.light{
+       background: rgba(255, 135, 0, 0.3);
+       color : black;
+     }
+     p{
+       font-size:0.9em;
+     }
+   }
+
+}
+
+.no-frame{
+    margin-top :0;
+    margin-bottom:0;
+ }
+
+
+/*
+ * Bandeau Style
+ * --------------------------------------------------
+ */
+
+.bandeau{
+    padding: 0;
+   .carousel-inner > .item{
+       height: @bandeauHeight;
+    }
+
+}
+
+/*
+ * Localisation Style
+ * --------------------------------------------------
+ */
+
+.localisation{
+  .navbar-nav > li > a{
+      padding: 0 0 0 2px;
+   }
+   ul{
+      float:right;
+   }
+}
+
+/*
+ * Footer
+ * --------------------------------------------------
+ */
+footer{
+ section{
+  &.footer-section{
+    background: @footer-gradient1;
+    background: -moz-linear-gradient(270deg, @footer-gradient1 30%, @footer-gradient2 70%);
+    background: -webkit-linear-gradient(270deg,@footer-gradient1 30%, @footer-gradient2 70%);
+    background: -o-linear-gradient(270deg, @footer-gradient1 30%, @footer-gradient2 70%);
+    background: -ms-linear-gradient(270deg, @footer-gradient1 30%, @footer-gradient2 70%);
+    background: linear-gradient(360deg, @footer-gradient1 30%, @footer-gradient2 70%);
+    text-align: center;
+    nav{
+       display: inline-block;
+       
+    }
+  }
+  &.meta-section{
+    background: @footer-bottom;
+  }
+ }
+
+}
+
+/*
+ * Menu Top
+ * --------------------------------------------------
+ */
+.navbar-top{
+   nav{
+     background: rgb(30, 50, 230);
+     background: -moz-linear-gradient(90deg, @navbar-gradient1 5%, @navbar-gradient2 80%);
+     background: -webkit-linear-gradient(90deg, @navbar-gradient1 5%, @navbar-gradient2 80%);
+     background: -o-linear-gradient(90deg, @navbar-gradient1 5%, @navbar-gradient2 80%);
+     background: -ms-linear-gradient(90deg, @navbar-gradient1 5%, @navbar-gradient2 80%);
+     background: linear-gradient(180deg, @navbar-gradient1 5%, @navbar-gradient2 80%);
+   }
+}
+
+
+/*
+ * Bordure Page
+ * --------------------------------------------------
+ */
+.wrapper > .container{
+   border-left : 1px solid black;
+   border-right: 1px solid black;
+}
+
+footer.wrapper > .container {
+    border-bottom: 1px solid black;
+    padding: 0;
+}
+
+header + div.wrapper > .container{
+    padding: 0;
+}
