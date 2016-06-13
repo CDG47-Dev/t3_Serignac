@@ -18,7 +18,7 @@ page{
 	
 		
 	bienvenue {
-		msg = Bienvenue sur le site officiel de la commune
+		msg = 
     	}
 	
 	search {
