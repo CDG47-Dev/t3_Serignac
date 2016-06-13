@@ -67,5 +67,12 @@ page{
 	    width = 220
 	    # label=Alternative text: Text of the alt attribute of the logo image (default: "<website title> logo"
 	    alt = Sérignac
-	}  	
+	} 
+	
+	
+##################################
+#### BOOTSTRAP LESS CONSTANTS ####
+##################################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3_cancon/Configuration/TypoScript/Bootstrap/constants.txt">
+
 }
