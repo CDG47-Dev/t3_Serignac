@@ -73,6 +73,6 @@ page{
 ##################################
 #### BOOTSTRAP LESS CONSTANTS ####
 ##################################
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3_cancon/Configuration/TypoScript/Bootstrap/constants.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3_serignac/Configuration/TypoScript/Bootstrap/constants.txt">
 
 }
