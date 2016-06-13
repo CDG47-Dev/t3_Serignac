@@ -66,6 +66,12 @@ page{
 		2= {$page.fluidtemplate.partialRootPath}
 	}
 	
+	includeCSS {
+		gabarit = EXT:t3_cancon/Resources/Public/Less/gabarit.less
+		gabarit.title = CSS
+		
+	}	
+	
 }
 
 	#bienvenue
