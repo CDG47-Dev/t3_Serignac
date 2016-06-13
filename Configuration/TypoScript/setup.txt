@@ -67,7 +67,7 @@ page{
 	}
 	
 	includeCSS {
-		gabarit = EXT:t3_cancon/Resources/Public/Less/gabarit.less
+		gabarit = EXT:t3_serignac/Resources/Public/Less/gabarit.less
 		gabarit.title = CSS
 		
 	}	
