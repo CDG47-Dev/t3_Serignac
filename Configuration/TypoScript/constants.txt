@@ -69,10 +69,10 @@ page{
 	    alt = Sérignac
 	} 
 	
+
+}
 	
 ##################################
 #### BOOTSTRAP LESS CONSTANTS ####
 ##################################
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3_serignac/Configuration/TypoScript/Bootstrap/constants.txt">
-
-}
