@@ -129,6 +129,7 @@ page{
 	        <span class="hidden-sm hidden-xs">
 	          {$page.localisation.commune_text}
 	        </span>
+			<i title="" class="glyphicon glyphicon-menu-right" data-original-title="{$page.localisation.cc_text}"></i>
 	      </a>
 	    </li>
 	)
