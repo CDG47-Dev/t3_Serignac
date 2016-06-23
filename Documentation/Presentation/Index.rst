@@ -54,4 +54,11 @@ trouve désormais au chemin suivant, t3_Serignac/Configuration/TypoScript/setup.
 Si des modifications sont à faire au niveau du contenu de ces lib, le fichier constants.txt qui se trouve au chemin suivant,
 t3_Serignac/Configuration/TypoScript/constants.txt, contient des variables qui peuvent être modifiées en fonction des besoins.
 
+Pour ce qui est de l'appel des lib. avec le fluid <f:cObject typoscriptObjectPath="lib.xxxxx">, pas de changements. Si ce n'est qu'il
+faille y faire appel dans le fichier de l'extension (t3_Serignac/Resources/Private/Layouts/Page/Default.html).
 
+Erreurs connues et fréquentes
+-----------------
+
+Oubli ou erreurs d'inclusion des fichiers qui ont été crées dans l'extension.
+Erreurs de nommage pour les chemins personnalisés 
