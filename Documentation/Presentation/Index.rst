@@ -30,7 +30,7 @@ Comme ci-dessous.
   .. figure:: ../Images/gabarit_inc.png
       :alt: Étape de création de gabarit
 
-Puis finalement, l'inclure. Voici une image d'aide.
+Puis finalement, l'inclure dans le fichier crée précédement. Voici une image d'aide.
 
   .. figure:: ../Images/Inclusion.png
     :alt: Inclure une extension.
