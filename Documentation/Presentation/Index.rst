@@ -36,6 +36,8 @@ Puis finalement, l'inclure dans le fichier crée précédement. Voici une image 
     :alt: Inclure une extension.
 
 Et évidement faire appel au gabarit pour vos pages, afin d'avoir la struture attendue.
+(sélectionner le module PAGE puis cliquer sur l'icon pour "Modifier les propriétés de la page" ensuite cliquer sur l'onglet apparence
+et choisir le gabarit t3_Sérignac) 
 
 Configuration
 -------------
