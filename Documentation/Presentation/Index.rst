@@ -25,7 +25,7 @@ site.
   Comme ci-dessous.
 
   .. figure:: ../Images/gabarit_inc.png
-     :alt: Étape de création de gabarit
+      :alt: Étape de création de gabarit
 
 Et finalement, l'inclure. Voici une image d'aide.
 
