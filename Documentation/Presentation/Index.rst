@@ -49,9 +49,9 @@ dans le sous-dossier Tstemplates.
     :alt: dossier TsTemplates contenant les lib.
     
 En effet, il vous suffit de transférer vos lib dans le fichier setup.txt de l'extension qui se
-trouve désormais au chemin suivant, t3_Serignac\Configuration\TypoScript\setup.txt.
+trouve désormais au chemin suivant, t3_Serignac/Configuration/TypoScript/setup.txt.
 
 Si des modifications sont à faire au niveau du contenu de ces lib, le fichier constants.txt qui se trouve au chemin suivant,
-t3_Serignac\Configuration\TypoScript\constants.txt, contient des variables qui peuvent être modifiées en fonction des besoins.
+t3_Serignac/Configuration/TypoScript/constants.txt, contient des variables qui peuvent être modifiées en fonction des besoins.
 
 
