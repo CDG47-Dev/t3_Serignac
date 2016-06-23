@@ -10,7 +10,6 @@ Cette extension fournit, un gabarit supplémentaire personnalisé dans TYPO3 CMS
 bien spécifique.
 
 .. figure:: ../Images/serignac.gif
-   :height: 261px
    :width: 261px
    :alt: Image du gabarit
    
