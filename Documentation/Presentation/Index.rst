@@ -42,14 +42,14 @@ et choisir le gabarit t3_Sérignac)
 Configuration
 -------------
 
-Cette extension permet également à des fins de praticité, de regrouper toutes vos "librairies" (lib.xxxx) qui se trouvent normalement
-dans le sous-dossier Tstemplates. 
+Cette extension permet également à des fins de praticité, de regrouper toutes vos "librairies" (lib.xxxx) qui se serraient trouvées
+normalement dans le sous-dossier Tstemplates de votre site. 
 
 .. figure:: ../Images/libraries.png
     :alt: dossier TsTemplates contenant les lib.
     
-En effet, il vous suffit de transférer vos lib dans le fichier setup.txt de l'extension qui se
-trouve désormais au chemin suivant, t3_Serignac/Configuration/TypoScript/setup.txt.
+En effet, désormais il vous suffit de transférer vos lib dans le fichier setup.txt de l'extension qui se
+trouve au chemin suivant, t3_Serignac/Configuration/TypoScript/setup.txt.
 
 Si des modifications sont à faire au niveau du contenu de ces lib, le fichier constants.txt qui se trouve au chemin suivant,
 t3_Serignac/Configuration/TypoScript/constants.txt, contient des variables qui peuvent être modifiées en fonction des besoins.
