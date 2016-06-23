@@ -35,5 +35,5 @@ Et finalement, l'inclure. Voici une image d'aide.
   .. figure:: ../Images/Inclusion.png
     :alt: Inclure une extension.
     
-- Dans le cas où vous souhaitez apporter des modifications pour la struture voici les étapes a suivre.
+- Dans le cas où vous souhaitez apporter des modifications :
   
