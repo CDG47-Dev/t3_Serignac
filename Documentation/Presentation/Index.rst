@@ -15,7 +15,8 @@ bien spécifique.
    
 L'image ci-dessus affiche l'apparence du gabarit dans le CMS.
 
--Manuel d'utilisation.
+Manuel d'utilisation
+---------------------
 
 Après avoir importer l'extension depuis le module EXTENSION de TYPO3 CMS, il suffit d'inclure l'extension dans la page racine de votre
 site.
@@ -25,10 +26,10 @@ site.
   .. figure:: ../Images/gabarit_inc.png
      :alt: Étape de création de gabarit
 
-  Et finalement, l'inclure. Voici une image d'aide.
+Et finalement, l'inclure. Voici une image d'aide.
 
   .. figure:: ../Images/gabarit_inc.png
     :alt: Inclure une extension.
     
-  - Dans le cas où vous souhaitez apporter des modifications pour la struture voici les étapes a suivre.
+-Dans le cas où vous souhaitez apporter des modifications pour la struture voici les étapes a suivre.
   
