@@ -30,11 +30,13 @@ Comme ci-dessous.
   .. figure:: ../Images/gabarit_inc.png
       :alt: Étape de création de gabarit
 
-Et finalement, l'inclure. Voici une image d'aide.
+Puis finalement, l'inclure. Voici une image d'aide.
 
   .. figure:: ../Images/Inclusion.png
     :alt: Inclure une extension.
-    
+
+Et évidement faire appel au gabarit pour vos pages, afin d'avoir la struture attendue.
+
 Configuration
 -------------
 
