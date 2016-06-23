@@ -13,7 +13,7 @@ bien spécifique.
    :width: 261px
    :alt: Image du gabarit
    
-L'image ci-dessus affiche l'apparence du gabarit dans le CMS.
+L'image ci-dessus représente l'apparence du gabarit dans le CMS.
 
 Manuel d'utilisation
 ---------------------
