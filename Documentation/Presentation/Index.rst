@@ -20,10 +20,10 @@ Manuel d'utilisation
 
 Après avoir importer l'extension depuis le module EXTENSION de TYPO3 CMS, il suffit d'inclure l'extension dans la page racine de votre
 site.
-  - Les étapes d'installation sont les suivantes:
+- Les étapes d'installation sont les suivantes:
   
-  Si ce n'est pas déjà fait, vous devez ajoutez un nouvel enregistrement de type "Enregistrements système" -> Gabarit. 
-  Comme ci-dessous.
+Si ce n'est pas déjà fait, vous devez ajoutez un nouvel enregistrement de type "Enregistrements système" -> Gabarit. 
+Comme ci-dessous.
 
 
   .. figure:: ../Images/gabarit_inc.png
